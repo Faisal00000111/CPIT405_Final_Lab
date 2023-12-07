@@ -21,7 +21,7 @@ const Form = () => {
             URL: URL
         });
 
-        const response = await fetch('http://localhost:3000/backend/api/create.php', {
+        const response = await fetch('http://localhost:3000/api/create.php', {
             method: 'POST',
             body: raw,
         });

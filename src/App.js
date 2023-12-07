@@ -1,6 +1,5 @@
-import About from "./containers/About";
-import Home from "./containers/Home";
-import List from "./containers/List";
+import Home from "./components/Home";
+import List from "./components/Bookmarks";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
@@ -15,10 +14,7 @@ export default function App() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/List">List</Link>
-              </li>
-              <li>
-                <Link to="/About">About</Link>
+                <Link to="/Bookmarks">Bookmarks</Link>
               </li>
             </ul>
           </nav>
@@ -26,8 +22,7 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/List" element={<List />} />
-            <Route path="/About" element={<About />} />
+            <Route path="/Bookmarks" element={<List />} />
           </Routes>
         </main>
         <footer>
