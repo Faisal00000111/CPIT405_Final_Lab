@@ -1,0 +1,30 @@
+.result-container {
+    background-color: #2c3e50;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+}
+
+.result-content {
+    margin-bottom: 15px;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+.result-description {
+    font-style: italic;
+    color: #bdc3c7;
+}
+
+.result {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.result-script {
+    display: block;
+    color: #bdc3c7;
+    font-weight: bold;
+}
